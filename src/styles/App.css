@@ -498,3 +498,24 @@ body {
   font-size: 0.9rem;
   color: #aaa;
 }
+
+.owner-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.owner-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.owner-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #000;
+}

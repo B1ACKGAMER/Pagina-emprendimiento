@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 function Contact() {
@@ -39,9 +39,30 @@ function Contact() {
                     <a
                         href="https://wa.me/573218762678?text=Hola%20quiero%20información%20sobre%20tus%20servicios"
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="contact-btn"
                     >
                         Escribir ahora
+                    </a>
+                </motion.div>
+
+                {/* INSTAGRAM */}
+                <motion.div
+                    className="contact-card"
+                    whileHover={{ scale: 1.05 }}
+                >
+                    <FaInstagram className="contact-icon instagram" />
+
+                    <h3>Instagram</h3>
+                    <p>Síguenos en nuestras redes</p>
+
+                    <a
+                        href="https://www.instagram.com/tvmaick/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="contact-btn"
+                    >
+                        Ir a Instagram
                     </a>
                 </motion.div>
 
